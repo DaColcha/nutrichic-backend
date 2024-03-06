@@ -8,7 +8,6 @@ public class MensajesContacto {
 
     @Id
     @Column(name = "id_mensaje")
-    @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer idMensaje;
 
     @Column(name = "nombres_paciente")
